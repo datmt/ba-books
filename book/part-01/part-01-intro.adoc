@@ -1,0 +1,41 @@
+[[part-welcome-to-ba]]
+= Part 1: Welcome to Business Analysis
+
+[partintro]
+--
+*Weeks 1-2 | 4 Chapters*
+
+Welcome to your Business Analysis journey. Before diving into specific techniques and tools, you need to understand what Business Analysis really is, how BAs think, and what your first project will look like.
+
+In this part, you'll learn:
+
+* What Business Analysts actually do day-to-day (not the textbook version)
+* How to develop the analytical mindset that makes BAs valuable
+* What a complete BA project looks like from start to finish
+* The essential vocabulary you need to communicate with confidence
+
+=== What Makes This Part Special
+
+Unlike most BA training that starts with theory, we begin with reality. You'll follow real junior BAs through actual situations, see what works, what doesn't, and why it matters.
+
+By the end of Part 1, you'll:
+
+* Understand your value proposition as a BA
+* Think more analytically about business problems
+* Know what to expect in your first project
+* Speak the language of business analysis
+
+=== Time Investment
+
+Plan for approximately 15-20 hours across 2 weeks:
+
+* Reading: 6 hours
+* Exercises: 8 hours
+* Reflection and practice: 4-6 hours
+
+=== Getting Started
+
+If you're brand new to BA work, start with Chapter 1 and work through sequentially. If you have some BA experience, you might skim Chapters 1 and 4, but don't skip Chapter 2 (The BA Mindset) and Chapter 3 (Your First Project) - they contain critical foundational thinking.
+
+Ready? Let's discover what Business Analysis really means.
+--

@@ -1,0 +1,838 @@
+[[chapter-01]]
+= Chapter 1: What Business Analysis Really Means
+
+:chapter-number: 1
+:icons: font
+
+[.chapter-intro]
+--
+*Time to Complete:* 3-4 hours +
+*Difficulty:* ⭐☆☆☆☆ +
+*What You'll Learn:* The real BA role, daily activities, and your value proposition +
+*What You'll Create:* BA role definition, job analysis, stakeholder interview reflection
+--
+
+== At a Glance
+
+After completing this chapter, you will be able to:
+
+* Describe what Business Analysts actually do in plain language
+* Recognize BA work in real organizational contexts
+* Explain your value as a BA to non-technical stakeholders
+* Identify BA activities in job descriptions and project scenarios
+
+== Why This Matters
+
+[.lead]
+You can't become a great BA if you don't know what a BA really does.
+
+Many people stumble into Business Analysis from other roles - development, testing, project management, or business operations. Others intentionally pursue it but find the job descriptions confusing or contradictory. Some companies call it "Business Analyst," others "Product Owner," "Requirements Engineer," or "Systems Analyst."
+
+The confusion is real, and it matters.
+
+If you don't understand the core of what BAs do - beyond the buzzwords and job titles - you'll struggle to:
+
+* Explain your role to stakeholders
+* Know when you're adding value
+* Develop the right skills
+* Navigate career opportunities
+
+=== What Junior BAs Say
+
+[quote, Alex, Junior BA with 6 months experience]
+____
+In my first month, I honestly didn't know what I was supposed to be doing. People kept asking me for 'requirements,' but nobody explained what that meant or how to get them. I felt like I was supposed to already know, so I was afraid to ask.
+____
+
+This chapter gives you clarity. Real, practical clarity about what BAs do and why organizations need us.
+
+'''
+
+== The Challenge
+
+Here's the problem with most BA definitions:
+
+[quote, Typical textbook definition]
+____
+A Business Analyst is a liaison between business stakeholders and technical teams, responsible for eliciting, analyzing, documenting, and validating requirements to ensure solutions meet business needs.
+____
+
+Technically accurate, but what does that actually *mean*? What do you *do* all day?
+
+=== Example Scenario
+
+Maya started her first BA job on Monday. Her manager, overwhelmed with other priorities, said: "You'll be working on the customer portal enhancement project. We need requirements by end of month. Let me know if you need anything!"
+
+Then... nothing. No guidance. No starting point.
+
+Maya spent Tuesday reading old documents. Wednesday attending meetings where people used acronyms she didn't recognize. Thursday trying to figure out who to talk to. By Friday, she'd written three pages of notes but had no idea if she was doing "business analysis."
+
+Sound familiar? This chapter ensures you'll know exactly what you're supposed to be doing.
+
+'''
+
+== Core Concepts
+
+=== Concept 1: The BA's Actual Job (In Plain Language)
+
+Here's what Business Analysts really do:
+
+[sidebar]
+.The Five Core BA Activities
+****
+1. **Figure out what people need** (not just what they say they want)
+2. **Analyze whether those needs make sense** (questioning assumptions)
+3. **Document needs clearly** (so everyone understands the same thing)
+4. **Help people make good decisions** (about what to build and how)
+5. **Verify the solution actually works** (confirming it meets the needs)
+****
+
+That's it. Everything else is a variation of these five activities.
+
+==== Breaking It Down
+
+Let's make this concrete with a simple example:
+
+[mermaid]
+....
+graph LR
+    A[Problem:<br/>Customers complain<br/>about shipping] --> B[BA Investigates:<br/>What's really wrong?]
+    B --> C[Discovery:<br/>Can't track orders]
+    C --> D[Solution:<br/>Order tracking feature]
+    D --> E[BA Validates:<br/>Does it work?]
+
+    style A fill:#ffcccc
+    style C fill:#ffffcc
+    style D fill:#ccffcc
+    style E fill:#ccccff
+....
+
+Notice what the BA does at each step:
+
+* **Investigates** the problem (doesn't assume)
+* **Discovers** the real need (tracking, not just "better shipping")
+* **Helps define** the solution (order tracking feature)
+* **Validates** it works (confirms customer satisfaction)
+
+=== Concept 2: What Makes BA Work Unique
+
+You might think: "Don't project managers do this? Don't developers?"
+
+Here's the difference:
+
+[cols="1,3,3", options="header"]
+.Role Comparison
+|===
+|Role
+|Primary Focus
+|Key Question
+
+|**Project Manager**
+|Delivering on time and budget
+|"Are we on schedule?"
+
+|**Developer**
+|Building the solution
+|"How do we build this?"
+
+|**Business Analyst**
+|Understanding the problem
+|"What should we build and why?"
+
+|**QA/Tester**
+|Finding defects
+|"Does it work as specified?"
+|===
+
+BAs live in the question: *"What should we build and why?"*
+
+Before anyone can manage timelines or write code, someone needs to understand:
+
+* What problem are we solving?
+* Who has this problem?
+* Why does it matter?
+* What would "solved" look like?
+* What are the options?
+
+That's the BA's domain.
+
+[TIP]
+.Pro Tip: Your Value Proposition
+====
+When stakeholders ask "Why do we need a BA?" your answer is simple: "To make sure we build the right thing, not just build the thing right."
+
+Developers build things right. BAs help ensure they're the right things to build.
+====
+
+=== Concept 3: Common Misconceptions About BA Work
+
+Let's clear up some myths:
+
+[cols="1,1", options="header"]
+.BA Myths vs. Reality
+|===
+|Myth
+|Reality
+
+|BAs just write documents
+|BAs solve problems; documents are just one tool
+
+|BAs need technical backgrounds
+|BAs need analytical thinking; technical knowledge helps but isn't required
+
+|BAs just relay messages
+|BAs analyze, synthesize, and add insight
+
+|BA work is all meetings
+|BAs also research, analyze, model, and think deeply
+
+|BAs always know the answer
+|BAs know how to find the answer by asking the right questions
+|===
+
+'''
+
+== The BA's Actual Day-to-Day
+
+Let's get practical. What does a BA's week actually look like?
+
+=== A Realistic Week in the Life
+
+[sidebar]
+.Sarah's Week: Junior BA at RetailCo
+****
+**Monday Morning**
+
+* 9:00 AM: Review weekend emails and Jira tickets
+* 9:30 AM: Team standup (15 minutes)
+* 10:00 AM: Interview with warehouse manager about returns process
+* 11:00 AM: Document interview notes, identify follow-up questions
+
+**Monday Afternoon**
+
+* 1:00 PM: Review developer's questions on last sprint's user stories
+* 2:00 PM: Workshop with customer service team about new chat feature
+* 3:30 PM: Update requirements document based on workshop outputs
+* 4:30 PM: Email follow-ups and schedule next week's meetings
+
+**Tuesday Morning**
+
+* 9:00 AM: Review updated wireframes from UX designer
+* 10:00 AM: Requirements review meeting with tech lead
+* 11:00 AM: Revise requirements based on technical feasibility feedback
+
+**Tuesday Afternoon**
+
+* 1:00 PM: Analyze data from customer complaint system
+* 3:00 PM: One-on-one with product owner about priorities
+* 4:00 PM: Update user story acceptance criteria
+
+**Wednesday**
+
+* 9:00 AM: Sprint planning meeting
+* 11:00 AM: Clarify requirements for development team
+* 1:00 PM: Work on business case for proposed feature
+* 3:00 PM: Stakeholder demo of completed features
+* 4:00 PM: Document demo feedback
+
+**Thursday**
+
+* 9:00 AM: Process modeling session for order fulfillment
+* 11:00 AM: Research competitor features
+* 1:00 PM: Draft requirements for next sprint
+* 3:00 PM: UAT (User Acceptance Testing) session with business users
+* 4:30 PM: Log UAT defects and questions
+
+**Friday**
+
+* 9:00 AM: Team retro
+* 10:00 AM: Follow up on outstanding questions
+* 11:00 AM: Finalize next sprint's requirements
+* 1:00 PM: Professional development (BA webinar)
+* 2:30 PM: Prep for next week's stakeholder meetings
+* 4:00 PM: Weekly status report to manager
+****
+
+Notice the variety:
+
+* Meetings with different stakeholders
+* Documentation and analysis work
+* Supporting development and testing
+* Research and learning
+* Follow-ups and coordination
+
+No two days are identical, but certain patterns emerge.
+
+'''
+
+== Step-by-Step Guide: Recognizing BA Work
+
+How do you know when you're seeing BA work (vs. PM work, developer work, etc.)?
+
+=== Step 1: Look for Problem Understanding
+
+**What you do:** Identify if someone is trying to understand *what* needs to be solved (not *how* to solve it).
+
+**Why it matters:** This is the core BA activity.
+
+**How to do it:**
+
+1. Listen for questions like "Why is this a problem?" or "What's really going on?"
+2. Notice when someone digs beneath surface requests
+3. Look for efforts to understand the business context
+
+**Example:**
+
+[cols="1,1", options="header"]
+|===
+|Not BA Work
+|BA Work
+
+|"The stakeholder wants a report, so I'll build it."
+|"The stakeholder wants a report. Let me find out what decisions they're trying to make with that data."
+|===
+
+=== Step 2: Look for Analysis and Options
+
+**What you do:** Identify when someone is evaluating alternatives or examining tradeoffs.
+
+**Why it matters:** BAs don't just accept the first solution; they analyze options.
+
+**How to do it:**
+
+1. Watch for comparison of different approaches
+2. Notice questions about pros and cons
+3. Look for "Have we considered..." discussions
+
+**Example:**
+
+Someone says: "We could add this field to the form, OR we could pull the data from the customer profile automatically, OR we could calculate it based on other inputs. Let's look at which makes most sense..."
+
+That's BA thinking.
+
+=== Step 3: Look for Clarity and Precision
+
+**What you do:** Identify when someone is removing ambiguity.
+
+**Why it matters:** BAs ensure everyone has the same understanding.
+
+**How to do it:**
+
+1. Listen for paraphrasing and confirmation: "So what I hear you saying is..."
+2. Notice when someone asks for clarification: "What exactly do you mean by 'urgent'?"
+3. Look for documentation that makes vague ideas concrete
+
+**Example:**
+
+[quote]
+____
+Stakeholder: "We need better customer data."
+
+BA: "When you say 'better,' do you mean more accurate, more complete, more up-to-date, or easier to access? And which customer data specifically - contact info, purchase history, preferences, something else?"
+____
+
+'''
+
+== Real Example: Sarah's First Week
+
+Let's follow Sarah through her actual first week as a junior BA.
+
+=== The Situation
+
+Sarah joined RetailCo as their first dedicated BA. Previously, the product manager had handled requirements, but as the team grew, they needed someone focused on understanding business needs.
+
+Her first assignment: "Help us figure out why the returns process is so painful."
+
+=== Monday: The Confusion
+
+Sarah's manager said: "Talk to the warehouse team about returns. Document what's not working."
+
+Sarah thought: _Okay, I'll interview them and write down what they say. Easy._
+
+She scheduled a meeting with Tom, the warehouse supervisor.
+
+=== The Interview (First Attempt)
+
+[cols="1,3"]
+|===
+|Sarah: |"Hi Tom, I'm here to learn about the returns process. What's not working?"
+
+|Tom: |"Everything! It takes forever, the system is clunky, we need better reports, and the customer service team doesn't give us good information."
+
+|Sarah: |"Okay..." *(writes down everything Tom said)* "What else?"
+
+|Tom: |"We need a way to scan barcodes, and the bins are in the wrong location, and we can't see if something was already refunded."
+
+|Sarah: |*(writing furiously)* "Got it. Anything else?"
+|===
+
+After 20 minutes, Sarah had a page of notes but no idea what the actual problem was.
+
+=== Monday Afternoon: The Realization
+
+Sarah showed her notes to her manager:
+
+"Tom says: system is clunky, needs better reports, CS doesn't give good info, needs barcode scanning, bins wrong location, can't see refund status."
+
+Her manager asked: "What's the real problem?"
+
+Sarah: "Um... the returns process is painful?"
+
+Manager: "Why is it painful? What's the impact? What's the root cause?"
+
+Sarah realized she'd collected complaints but hadn't analyzed anything.
+
+=== Tuesday: The Better Approach
+
+Sarah went back to Tom with different questions:
+
+[cols="1,3"]
+|===
+|Sarah: |"Tom, walk me through what happens when a return arrives. Start to finish."
+
+|Tom: |*(walks through process)* "Package arrives, we open it, check what's inside, look up the order in the system..."
+
+|Sarah: |"How do you look up the order?"
+
+|Tom: |"Customer name or order number. But sometimes they don't match what the customer wrote on the return form."
+
+|Sarah: |"How often does that happen?"
+
+|Tom: |"Maybe 30% of the time. Then we have to call customer service to look it up, which takes like 10 minutes."
+
+|Sarah: |"So if you process 100 returns a day, that's 30 calls at 10 minutes each... 5 hours of warehouse time just tracking down order numbers?"
+
+|Tom: |"Yeah, exactly! That's the pain. Everything else backs up while we wait."
+|===
+
+Now Sarah had something: **The root cause was order lookup failures, wasting 5 hours daily.**
+
+=== The Analysis Phase
+
+Sarah dug deeper:
+
+* Talked to customer service: "Why don't order numbers match?"
+* Analyzed return forms: Found inconsistent formats
+* Checked system logs: Discovered the system couldn't search by partial order numbers
+* Calculated impact: 5 hours daily × $25/hour × 250 days/year = $31,250 in lost productivity
+
+=== The Key Insight
+
+The problem wasn't "the returns process is painful."
+
+The problem was: "Returns processing is delayed by order lookup failures due to inconsistent order number formats on return forms and limited search capability in the system."
+
+Now that's actionable.
+
+=== The Solution Options
+
+Sarah identified three options:
+
+[mermaid]
+....
+graph TD
+    A[Problem: Order lookup failures] --> B{Options}
+    B -->|Option 1| C[Standardize return form<br/>Cost: Low Time: 2 weeks]
+    B -->|Option 2| D[Improve system search<br/>Cost: Medium Time: 6 weeks]
+    B -->|Option 3| E[Both<br/>Cost: Medium Time: 8 weeks]
+
+    C --> F[Impact: Reduces failures 50%]
+    D --> G[Impact: Reduces lookup time 70%]
+    E --> H[Impact: Reduces failures 80%<br/>AND reduces lookup time 70%]
+
+    style H fill:#ccffcc
+....
+
+She presented all three with cost-benefit analysis.
+
+The team chose Option 3.
+
+=== The Outcome
+
+Six weeks later:
+
+* Return form redesigned with clear order number field
+* System enhanced with fuzzy search and partial number matching
+* Order lookup time dropped from 10 minutes to 2 minutes
+* Failed lookups dropped from 30% to 6%
+* Warehouse productivity up significantly
+
+Sarah had delivered real value by doing actual BA work: understanding the problem, analyzing root causes, and evaluating solutions.
+
+=== Your Turn to Analyze
+
+Think about Sarah's journey:
+
+1. What did Sarah do wrong in her first interview?
+2. What changed in her second approach?
+3. What BA activities did she perform?
+4. How did she add value beyond just "writing requirements"?
+5. What would have happened if she'd stopped after the first interview?
+
+'''
+
+== Common Pitfalls
+
+=== Pitfall 1: Being a Passive Scribe
+
+**What it looks like:** Writing down everything stakeholders say without questioning or analyzing.
+
+**Why it happens:** Fear of seeming ignorant or pushy; thinking BA means "note-taker."
+
+**How to avoid it:**
+
+* Ask "why" at least 3 times
+* Paraphrase to confirm understanding
+* Look for contradictions
+* Question assumptions
+
+**If it happens:**
+
+Go back and ask follow-up questions. It's never too late to say "I want to make sure I understand this correctly..."
+
+**Real example:**
+
+A junior BA documented a requirement: "System must send email notification within 5 minutes."
+
+They never asked: Why 5 minutes? What happens if it takes 6 minutes? What's being notified? Who needs it? What's the business impact?
+
+The requirement was built as specified. Turned out 5 minutes was arbitrary, and users actually needed a different notification entirely.
+
+---
+
+=== Pitfall 2: Assuming You Need Technical Expertise
+
+**What it looks like:** Avoiding certain projects or questions because you don't know the technology.
+
+**Why it happens:** Misconception that BAs must understand all technical details.
+
+**How to avoid it:**
+
+* Focus on the business problem first
+* Partner with technical experts for the "how"
+* Ask questions from a user perspective
+* Learn technology gradually, on the job
+
+**If it happens:**
+
+Say "I don't know the technical details, but I know we need to understand the business need. Let's bring in [technical person] to discuss implementation."
+
+**Real example:**
+
+A BA avoided a data warehouse project because they'd never worked with data warehouses. Later realized the BA's job was to understand what reports business needed, not design the warehouse architecture.
+
+[WARNING]
+.Watch Out!
+====
+Don't let impostor syndrome stop you. You're not supposed to know everything. You're supposed to know how to find out.
+====
+
+---
+
+=== Pitfall 3: Confusing Motion with Progress
+
+**What it looks like:** Attending lots of meetings, writing lots of documents, but not actually clarifying anything.
+
+**Why it happens:** Feeling like activity equals productivity.
+
+**How to avoid it:**
+
+* After each meeting, ask: "What did we learn or decide?"
+* After each document, ask: "What's clearer now than before?"
+* Focus on outcomes, not outputs
+
+**If it happens:**
+
+Pause and ask: "What are we trying to accomplish? What questions do we still need answered?"
+
+---
+
+[NOTE]
+.Real Talk
+====
+In your first few months, you'll feel lost sometimes. Everyone does. The difference between a struggling BA and a successful BA isn't knowledge - it's asking questions and persisting until you understand.
+
+Good BAs are comfortable saying "I don't understand yet" and then doing the work to understand.
+====
+
+'''
+
+== Practical Exercise
+
+=== Exercise 1: Job Description Analysis
+
+**Objective:** Identify BA activities in real job descriptions
+
+**Time:** 30 minutes
+
+**Materials needed:** 3 job descriptions for "Business Analyst" roles (find online or use provided samples)
+
+==== Your Task
+
+For each job description:
+
+1. Highlight responsibilities that match the five core BA activities:
+   - Understanding needs
+   - Analyzing
+   - Documenting
+   - Facilitating decisions
+   - Validating solutions
+
+2. Identify non-BA responsibilities (if any)
+
+3. Note what industries/contexts might affect how the role is performed
+
+4. Write a 2-3 sentence summary of what you'd actually do in that role
+
+==== Success Criteria
+
+* Correctly categorizes at least 80% of responsibilities
+* Distinguishes BA work from PM, developer, or other roles
+* Provides clear, specific role summaries
+
+---
+
+=== Exercise 2: Stakeholder Meeting Analysis
+
+**Objective:** Recognize BA work in action
+
+**Time:** 45 minutes
+
+**Scenario:**
+
+Watch or read the transcript of a stakeholder meeting (provided separately, or find a project meeting video online).
+
+==== Your Task
+
+1. Create a timeline of the meeting
+2. Mark each point where someone does BA work (questioning, analyzing, clarifying, etc.)
+3. Identify what BA activities were missing (if any)
+4. Write what you would have done differently as the BA
+
+==== Hints
+
+* Look for moments when someone asks "why"
+* Notice when assumptions are challenged
+* Watch for clarification questions
+* See when options are discussed
+
+---
+
+=== Exercise 3: Your BA Value Proposition
+
+**Objective:** Articulate what you bring as a BA
+
+**Time:** 30 minutes
+
+==== Your Task
+
+Imagine you're at a family dinner. Someone asks: "So what exactly do you do as a Business Analyst?"
+
+Write a 2-3 paragraph explanation that:
+
+1. Explains what BAs do (no jargon)
+2. Gives a concrete example
+3. Shows why it matters
+
+==== Success Criteria
+
+* Your grandmother could understand it
+* Uses a specific example
+* Connects to business value
+* No acronyms or buzzwords
+
+'''
+
+== Self-Check
+
+=== Knowledge Check
+
+1. What are the five core BA activities?
+2. How is BA work different from project management?
+3. What's the difference between a request and a need?
+4. Why is asking "why" important for BAs?
+
+=== Application Check
+
+**Scenario 1:** A stakeholder emails you: "We need a dashboard with all our sales data."
+
+What questions would you ask before writing any requirements?
+
+**Scenario 2:** In a meeting, two stakeholders disagree about whether a feature is needed.
+
+What would you do as the BA?
+
+=== Reflection
+
+1. Based on this chapter, what aspect of BA work excites you most?
+2. What aspect concerns you or seems challenging?
+3. How would you explain your role as a BA to your current manager?
+
+'''
+
+[TIP]
+.Pro Tips
+====
+*Building Credibility Early*
+
+In your first weeks, you'll build more credibility by asking smart questions than by pretending to know everything.
+
+Smart questions:
+
+* "Help me understand why this is important..."
+* "What happens if we don't solve this?"
+* "What would success look like?"
+
+*Reading the Room*
+
+Different stakeholders need different communication styles. Executives want business impact. Developers want specifics. End users want to be heard. Adapt your approach.
+
+*Your Secret Weapon*
+
+Fresh eyes are valuable. As a new BA, you see things experienced team members miss because they've stopped questioning. Use that.
+====
+
+'''
+
+== What Could Go Wrong
+
+=== Scenario 1: The Unclear Role
+
+**What happened:** Your manager says "just figure out what they need" but gives no other guidance.
+
+**Impact:** You waste time doing the wrong things or duplicating others' work.
+
+**How to fix it:**
+
+* Ask your manager: "What does success look like for me in the first month?"
+* Request examples of good BA deliverables from past projects
+* Schedule a meeting to clarify expectations
+
+**How to prevent it:**
+
+In the interview or first week, ask:
+
+* "What does a typical week look like for BAs here?"
+* "What are my key deliverables?"
+* "Who do I work with most closely?"
+
+---
+
+=== Scenario 2: Everyone Has a Different Definition of BA
+
+**What happened:** IT thinks you're a technical writer. Business thinks you're a project manager. Nobody agrees on what you should do.
+
+**Impact:** Conflicting expectations, frustration, wasted effort.
+
+**How to fix it:**
+
+* Schedule individual conversations with key stakeholders
+* Ask each: "What do you expect from the BA role?"
+* Find the common threads
+* Document and share "My Role as BA on This Project"
+
+'''
+
+== Taking It Further
+
+=== If you want to learn more:
+
+* **BABOK Reference:** Chapter 1 (Introduction), Section 2.1 (Who is a Business Analyst)
+* **Recommended reading:**
+  - "Business Analysis for Practitioners" by PMI
+  - "The Business Analyst's Handbook" by Howard Podeswa
+* **Online resources:**
+  - IIBA.org (International Institute of Business Analysis)
+  - Modern Analyst website
+  - BA Times publication
+* **Practice opportunities:**
+  - Volunteer to document processes in your current role
+  - Offer to help with requirements on small projects
+  - Join IIBA local chapter meetings
+
+=== Advanced Concepts
+
+As you progress, you'll learn about:
+
+* **BA specializations:** Data BA, Process BA, Technical BA, Agile BA
+* **Industry-specific BA work:** Healthcare, finance, government
+* **Strategic BA:** Business architecture, enterprise analysis
+
+These become relevant after you've mastered the fundamentals.
+
+'''
+
+== Key Takeaways
+
+✅ BAs understand needs, analyze problems, document clearly, facilitate decisions, and validate solutions
+
+✅ BA work is distinct from project management (delivery focus) and development (building focus)
+
+✅ BAs ask "what should we build and why" before anyone asks "how do we build it"
+
+✅ Good BAs are comfortable not knowing everything - they know how to find answers
+
+✅ Your value as a BA is ensuring teams build the right thing, not just build things right
+
+✅ The BA role varies by organization, but core activities remain consistent
+
+✅ You don't need a technical background to be an excellent BA - you need analytical thinking
+
+'''
+
+== What's Next
+
+In Chapter 2, you'll learn about *The BA Mindset* - how to think like a problem solver. Understanding the BA role is step one. Thinking like a BA is step two.
+
+You'll discover:
+
+* How to ask questions that uncover root causes
+* Critical thinking techniques for BAs
+* Managing assumptions and biases
+* The "5 Whys" technique in action
+
+Ready to develop your analytical thinking? Let's go.
+
+'''
+
+== Quick Reference Card
+
+.BA Role Quick Reference
+****
+**Five Core Activities:**
+
+1. Understand needs (not wants)
+2. Analyze and evaluate
+3. Document clearly
+4. Facilitate decisions
+5. Validate solutions
+
+**BA's Key Question:**
+"What should we build and why?"
+
+**Value Proposition:**
+"I ensure we build the right thing, not just build the thing right."
+
+**Essential Skills:**
+
+* Questioning
+* Listening
+* Analysis
+* Communication
+* Facilitation
+
+**Common Deliverables:**
+
+* Requirements documents
+* User stories
+* Process models
+* Analysis reports
+* Validation results
+
+**Success Indicators:**
+
+* Problems are clearly understood
+* Solutions address root causes
+* Stakeholders agree on needs
+* Teams build the right things
+****

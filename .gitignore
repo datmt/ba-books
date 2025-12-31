@@ -1,0 +1,33 @@
+# Build output
+output/
+*.html
+*.pdf
+*.epub
+
+# AsciiDoctor generated files
+.asciidoctor/
+**/diag-*.png
+
+# Editor files
+*.swp
+*.swo
+*~
+.DS_Store
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Ruby/Gem files (if using bundler)
+vendor/
+.bundle/
+Gemfile.lock
+
+# System files
+Thumbs.db

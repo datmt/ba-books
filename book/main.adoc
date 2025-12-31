@@ -1,0 +1,204 @@
+= The Junior BA's Practical Guide: Mastering Business Analysis Through Real-World Practice
+:doctype: book
+:toc: left
+:toclevels: 2
+:icons: font
+:source-highlighter: rouge
+:imagesdir: images
+:stem: latexmath
+:chapter-signifier: Chapter
+:appendix-caption: Appendix
+:sectnums:
+:xrefstyle: short
+
+// Book metadata
+:author: Your Name
+:email: your.email@example.com
+:revnumber: 1.0
+:revdate: {docdate}
+:revremark: First Edition
+
+// Custom attributes
+:ba: Business Analyst
+:babok: BABOK v3
+
+[dedication]
+== Dedication
+
+To every junior Business Analyst starting their journey...
+
+[preface]
+== Preface
+
+Welcome to your practical guide to becoming an effective Business Analyst.
+
+This book is different from traditional BA textbooks. Instead of abstract theory, you'll find:
+
+* Real examples from actual projects
+* Step-by-step guides for every technique
+* Hands-on exercises you can complete today
+* Honest advice about what really works
+
+Whether you're just starting your BA career or looking to solidify your foundational skills, this book will guide you through 48 comprehensive chapters organized into 12 practical parts.
+
+=== How to Use This Book
+
+Each chapter follows a consistent structure:
+
+* **At a Glance**: Quick overview of what you'll learn
+* **Core Concepts**: Theory explained in plain language
+* **Real Examples**: Extended scenarios showing techniques in action
+* **Step-by-Step Guides**: Concrete instructions you can follow
+* **Practical Exercises**: Hands-on practice with clear success criteria
+* **Common Pitfalls**: What to avoid and how to recover
+* **Self-Check**: Questions to verify your understanding
+
+=== About the 30-Week Learning Path
+
+This book is designed to be completed over 30 weeks at 6-10 hours per week:
+
+* Weeks 1-10: Foundation (individual skills)
+* Weeks 11-20: Integration (combining skills)
+* Weeks 21-30: Application (realistic projects)
+
+You'll complete three major capstone projects that demonstrate your growing mastery.
+
+'''
+
+// Part 1: Welcome to Business Analysis
+include::part-01/part-01-intro.adoc[]
+
+include::chapters/chapter-01.adoc[]
+include::chapters/chapter-02.adoc[]
+include::chapters/chapter-03.adoc[]
+include::chapters/chapter-04.adoc[]
+
+// Part 2: Stakeholder Engagement Fundamentals
+include::part-02/part-02-intro.adoc[]
+
+include::chapters/chapter-05.adoc[]
+include::chapters/chapter-06.adoc[]
+include::chapters/chapter-07.adoc[]
+include::chapters/chapter-08.adoc[]
+
+// Part 3: Elicitation Essentials
+include::part-03/part-03-intro.adoc[]
+
+include::chapters/chapter-09.adoc[]
+include::chapters/chapter-10.adoc[]
+include::chapters/chapter-11.adoc[]
+include::chapters/chapter-12.adoc[]
+
+// Part 4: Requirements Fundamentals
+include::part-04/part-04-intro.adoc[]
+
+include::chapters/chapter-13.adoc[]
+include::chapters/chapter-14.adoc[]
+include::chapters/chapter-15.adoc[]
+include::chapters/chapter-16.adoc[]
+
+// Part 5: Documenting Your Work
+include::part-05/part-05-intro.adoc[]
+
+include::chapters/chapter-17.adoc[]
+include::chapters/chapter-18.adoc[]
+include::chapters/chapter-19.adoc[]
+include::chapters/chapter-20.adoc[]
+
+// Part 6: Essential BA Techniques
+include::part-06/part-06-intro.adoc[]
+
+include::chapters/chapter-21.adoc[]
+include::chapters/chapter-22.adoc[]
+include::chapters/chapter-23.adoc[]
+include::chapters/chapter-24.adoc[]
+include::chapters/chapter-25.adoc[]
+
+// Part 7: Requirements Management
+include::part-07/part-07-intro.adoc[]
+
+include::chapters/chapter-26.adoc[]
+include::chapters/chapter-27.adoc[]
+include::chapters/chapter-28.adoc[]
+include::chapters/chapter-29.adoc[]
+
+// Part 8: Working with Solutions
+include::part-08/part-08-intro.adoc[]
+
+include::chapters/chapter-30.adoc[]
+include::chapters/chapter-31.adoc[]
+include::chapters/chapter-32.adoc[]
+include::chapters/chapter-33.adoc[]
+
+// Part 9: Validation and Verification
+include::part-09/part-09-intro.adoc[]
+
+include::chapters/chapter-34.adoc[]
+include::chapters/chapter-35.adoc[]
+include::chapters/chapter-36.adoc[]
+
+// Part 10: BA in Different Contexts
+include::part-10/part-10-intro.adoc[]
+
+include::chapters/chapter-37.adoc[]
+include::chapters/chapter-38.adoc[]
+include::chapters/chapter-39.adoc[]
+include::chapters/chapter-40.adoc[]
+
+// Part 11: Professional Skills
+include::part-11/part-11-intro.adoc[]
+
+include::chapters/chapter-41.adoc[]
+include::chapters/chapter-42.adoc[]
+include::chapters/chapter-43.adoc[]
+include::chapters/chapter-44.adoc[]
+
+// Part 12: Launching Your Career
+include::part-12/part-12-intro.adoc[]
+
+include::chapters/chapter-45.adoc[]
+include::chapters/chapter-46.adoc[]
+include::chapters/chapter-47.adoc[]
+include::chapters/chapter-48.adoc[]
+
+// Appendices
+[appendix]
+include::appendices/appendix-a-quick-reference.adoc[]
+
+[appendix]
+include::appendices/appendix-b-sample-documents.adoc[]
+
+[appendix]
+include::appendices/appendix-c-role-play-scenarios.adoc[]
+
+[appendix]
+include::appendices/appendix-d-self-assessment.adoc[]
+
+[appendix]
+include::appendices/appendix-e-tool-landscape.adoc[]
+
+[appendix]
+include::appendices/appendix-f-babok-competencies.adoc[]
+
+[glossary]
+== Glossary
+
+[glossary]
+Acceptance Criteria:: Conditions that must be met for a requirement to be considered complete and acceptable to stakeholders.
+
+Business Analyst:: A professional who analyzes business needs, identifies solutions, and facilitates communication between stakeholders and technical teams.
+
+BABOK:: Business Analysis Body of Knowledge - the guide published by IIBA defining BA standards and practices.
+
+Elicitation:: The process of gathering requirements and information from stakeholders.
+
+Functional Requirement:: A requirement that specifies what a system must do - its behaviors and functions.
+
+Non-Functional Requirement:: A requirement that specifies how a system performs - quality attributes like performance, security, usability.
+
+Stakeholder:: Any person, group, or organization that can affect, be affected by, or perceive themselves to be affected by a solution.
+
+User Story:: A short, simple description of a feature told from the perspective of the person who desires the new capability.
+
+[index]
+== Index
